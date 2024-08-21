@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+
+body {
+    all: unset;
+
+    input {
+        outline: unset;
+    }
+}
+
+.qwigley-regular {
+    font-family: "Qwigley", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.color-primary-light {
+    color: rgba(255, 179, 14, 1) !important;
+}
+
+.color-primary-dark {
+    color: rgba(241, 114, 40, 1) !important;
+}
+
+.color-white {
+    color: #FFF !important;
+}
+
+.bg-primary-light {
+    background: rgba(255, 179, 14, 1) !important;
+}
+
+.bg-primary-dark {
+    background: rgba(241, 114, 40, 1) !important;
+
+}
+
+.bg-primary-subtle {
+    background: rgba(241, 114, 40, 0.3) !important;
+}
+
+.bg-gray {
+    background: rgba(128, 128, 128, 0.1) !important;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    margin: unset;
+    font-size: 4rem;
+}
+
+.location {
+    font-weight: bolder;
+}
+
+.btn {
+    background: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.25em 0.5em;
+    font-size: large;
+    font-weight: bolder;
+
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 0.5em 1em;
+    border-color: rgba(255, 179, 14, 1);
+
+
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    opacity: 0.95;
+}
+
+.brand-text {
+    color: #FFF;
+    font-size: 5em;
+    margin: unset;
+}
+
+.option-menu {
+    width: 45vw;
+}
+
+.options {
+    display: flex;
+    background-color: #FFF;
+    padding: 1rem;
+    font-size: 1.5em;
+    align-items: center;
+    gap: 10px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.location-input {
+    background-color: #FFF;
+    display: flex;
+    padding: 1.5rem;
+    gap: 10px;
+    align-items: center;
+
+    input[type="text"] {
+        flex-grow: 1;
+    }
+}
+
+.banner-img {
+    transform: scale(0.75);
+}
+
+.border-none {
+    border: none;
+}
+
+.gap {
+    display: flex;
+    gap: 10px;
+}
+
+.find-btn {
+    font-size: 1em !important;
+    font-weight: normal !important;
+    padding: .5em 1em;
+
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    gap: 1em;
+    font-family: "Source Sans 3", system-ui;
+}
+
+.card {
+    width: 17.5vw;
+
+    img {
+        width: 100%;
+    }
+
+    span {
+        padding: 5px 10px;
+        font-weight: bolder;
+        border-radius: 10px;
+    }
+}
+
+.container-3 {
+    font-family: "Source Sans 3", system-ui;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 2rem o;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 27px 11px rgba(255, 181, 21, 0.1);
+
+    hr {
+        margin: 2rem;
+    }
+}
+
+.deal-card {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.deal-icon {
+    height: 75%;
+}
+
+.deal-title {
+    background: linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%);
+    background-clip: text;
+    color: transparent;
+}
+
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 1em;
+    font-family: "Source Sans 3", system-ui;
+
+}
+
+.food-card {
+    width: 20vw;
+
+    img {
+        width: 75%;
+    }
+}
